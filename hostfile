@@ -1,0 +1,7 @@
+# cluster with 4 machines and 16 processing units
+# host machine(change this to current machine)
+node01.dcc.fc.up.pt slots=4 max-slots=4
+# suport machines, list os machines that will do processing other than host machine
+node02.dcc.fc.up.pt slots=4 max-slots=4
+node03.dcc.fc.up.pt slots=4 max-slots=4
+node04.dcc.fc.up.pt slots=4 max-slots=4
